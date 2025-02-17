@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary | Glasses and Sunglasses</title>
+    <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- Navbar -->
+    <%- include('../partials/navbar') %>
+
+    <!-- Sidecart -->
+    <%- include('../partials/sidecart') %>
+
+    <!-- Menu -->
+    <%- include('../partials/menu') %>
+    
+    <main>
+        <!-- Banner -->
+        <section class="banner">
+            <div class="container">
+                <div class="banner-content">
+                    <div class="banner-actions">
+                        <div class="banner-slogan">
+                            <h1>Simplicity in sight. <br>See clearly, live boldly.</h1>
+                        </div>
+                        
+                        <div class="banner-catalog">
+                            <img src="../images/glasses-06.jpg" alt="">
+                            <a href="all-products"><p>View all products →</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Product Grid -->
+        <section class="product-grid">
+            <div class="container">
+                <h1>Best-sellers</h1>
+                
+                <%- include('../partials/products') %>
+
+                <a href="all-products"><button class="product-btn">View all →</button></a>
+            </div>
+        </section>
+
+        <!-- Brand Slogan -->
+        <section class="brand-slogan">
+            <div class="container">
+                <div class="slogan">
+                    <h1><span class="underline">Clean lines,</span> clear vision.</h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Banners -->
+        <section class="product-banner">
+            <div class="container">
+                <a href="glasses"><div class="product-glasses">
+                    <div class="product-banner-actions">
+                        <h2 class="bg-neutral-100">Glasses</h2>
+                        <button>→</button>
+                    </div>
+                </div></a>
+
+                <a href="sunglasses"><div class="product-sunglasses">
+                    <div class="product-banner-actions">
+                        <h2 class="bg-neutral-100">Sunglasses</h2>
+                        <button>→</button>
+                    </div>     
+                </div></a>
+            </div>
+        </section>
+
+
+        <!-- Product Details -->
+        <section class="products-details">
+            <div class="container">
+                <h1 class="details-title">Details</h1>
+
+                <div class="details-wrapper">
+                    <div class="details-item">
+                        <img src="/images/glasses-06.jpg" alt="Lee sunglasses">
+                    </div>
+
+                    <div class="details-item">
+                        <h1>Premium M49 acetate</h1>
+                        <p> 
+                            Handmade in Italy, all in Italian M49 bio acetate from 
+                            Mazzucchelli in translucent wine color. A sustainable 
+                            material, without any petrochemical components, and of 
+                            high quality, which guarantees durability, comfort and 
+                            a better fit on the face.
+                        </p>
+                    </div>
+
+                    <div class="details-item">
+                        <h1>Custom<br>lenses</h1>
+                        <p>
+                            Original lenses can be easily replaced with custom 
+                            prescription lenses. You can change the lenses at any 
+                            optician you prefer, or you can buy glasses 
+                            with lenses in your prescription. We make monofocal 
+                            sunglasses for hyperopia, myopia and astigmatism.
+                        </p>
+                    </div>
+
+                    <div class="details-item">
+                        <h1>High quality</h1>
+                        <p>                        
+                            CR-39 sun lens in different color options with 100% 
+                            UVA and UVB protection. CR-39 lenses are lightweight 
+                            and scratch-resistant, with ultra-high sharpness and 
+                            zero distortion.
+                        </p>
+                        <a href="all-products"><button>View products →</button></a>
+                    </div>
+
+                    <div class="details-item">
+                        <img src="/images/model-10.jpg" alt="Two female models wearing Lee sunglasses">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Stores Slide -->
+        <section class="stores-slide">
+            <div class="container">
+                <h1>Stores</h1>
+                <div class="stores-grid">
+                    <div class="store-box">
+                        <img src="/images/store-ny.jpg" alt="Store 1">
+                        <div class="store-info">
+                            <p class="fw-bold">Hudson Yards - NY<br>20 Hudson Yards<br>+1 646-954-3155</p>
+                            <p>10am-8pm</p>
+                        </div>
+                    </div>
+                    <div class="store-box">
+                        <img src="/images/store-sp.jpg" alt="Store 2">
+                        <div class="store-info">
+                            <p class="fw-bold">Shopping Cidade - SP<br>Av. Paulista, 1230<br>+55 11 3497-7000</p>
+                            <p>10am-10pm</p>
+                        </div>
+                    </div>
+                    <div class="store-box">
+                        <img src="/images/store-fr.jpg" alt="Store 3">
+                        <div class="store-info">
+                            <p class="fw-bold">La Vallée Village - FR<br>3 Cr de la Garonne<br>+33 1 60 42 35 00</p>
+                            <p>10am-8pm</p>
+                        </div>
+                    </div>
+                    <div class="store-box">
+                        <img src="/images/store-ar.jpg" alt="Store 4">
+                        <div class="store-info">
+                            <p class="fw-bold">Alto Palermo - AR<br>Av. Sta. Fe 3253<br>+54 800-222-2299</p>
+                            <p>10am-10pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <%- include('../partials/footer') %>
+    </main>
+
+    <!-- JS -->
+    <script src="/js/app.js"></script>
+</body>
+</html>

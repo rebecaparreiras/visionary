@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary | Glasses and Sunglasses</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- Navbar -->
+    <%- include('../partials/navbar') %>
+
+    <!-- Sidecart -->
+    <%- include('../partials/sidecart') %>
+
+    <!-- Menu -->
+    <%- include('../partials/menu') %>
+
+    <main>
+        <section class="product-page">
+            <div class="container">
+                <div class="product-page-item" data-id="4" data-name="Babo" data-price="250">
+                    <div class="product-slider-wrapper">
+                        <div class="product-slider">
+                            <img id="slide-1" src="/images/g-03a.webp" alt="Babo glasses front view">
+                            <img id="slide-2" src="/images/g-03b.webp" alt="Babo glasses side view">    
+                        </div>
+                        
+                        <div class="slider-nav">
+                            <a href="#slide-1"></a>
+                            <a href="#slide-2"></a>
+                        </div>
+                    </div>
+
+                    <div class="product-page-info">
+                        <div class="product-page-title">
+                            <h2 class="fs-400">BABO</h2>
+                            <h2 class="fs-400">$250</h2>
+                        </div>
+
+                        <div class="product-page-description">
+                            <p class="fs-200">
+                                Classic round design in a smaller size, with a thin 
+                                and elegant thickness, ideal for those with small to 
+                                medium faces.
+                            </p>
+                        </div>
+
+                        <div class="product-page-button">
+                            <button class="add-to-cart">ADD TO CART</button>
+                        </div>
+
+                        <div class="product-page-links">
+                            <a href=""><p class="fs-100">Composition, care and origin</p></a>
+                            <a href=""><p class="fs-100">Check availability in store</p></a>
+                            <a href=""><p class="fs-100">Shipping, exchanges and returns</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Recommended -->
+        <%- include('../partials/recommended') %>
+
+
+        <!-- Footer -->
+        <%- include('../partials/footer') %>
+    </main>
+
+    <!-- JS -->
+    <script src="/js/app.js"></script>
+</body>
+</html>

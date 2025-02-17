@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Lilo",
+        "price": 400,
+        "image": "..images/g-01a.webp",
+        "image-hover": "..images/g-01b.webp"
+    },
+    {
+        "id": 2,
+        "name": "Gimpo",
+        "price": 250,
+        "image": "..images/g-02a.webp"
+    },
+    {
+        "id": 3,
+        "name": "Lee",
+        "price": 450,
+        "image": "..images/sg-01a.webp"
+    },
+    {
+        "id": 4,
+        "name": "Babo",
+        "price": 250,
+        "image": "..images/g-03a.webp"
+    }
+]

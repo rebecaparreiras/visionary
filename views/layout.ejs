@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= titlepm2 %></title>
+    <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- Navbar -->
+    <% include('partials/navbar') %>
+
+    <!-- Sidecart -->
+    <% include('partials/sidecart') %>
+
+    <!-- Menu -->
+    <% include('partials/menu') %>
+
+    <main>
+        <!-- Body -->
+        <%- include(body) %> 
+    </main>
+
+    <!-- Footer -->
+    <% include('partials/footer') %> 
+
+    <!-- JS -->
+    <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary | Glasses and Sunglasses</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- Navbar -->
+    <%- include('../partials/navbar') %>
+
+    <!-- Sidecart -->
+    <%- include('../partials/sidecart') %>
+
+    <!-- Menu -->
+    <%- include('../partials/menu') %>
+    
+    
+    <main>
+        <!-- Intro Banner -->
+        <section class="product-page">
+            <div class="container">
+                <div class="product-intro">
+                    <img class="img-intro" src="../images/banner-5.jpg" alt="">
+                    <h2 class="bg-neutral-100">Stores</h2>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Stores Slide -->
+        <section class="stores-slide stores-page">
+            <div class="container">
+
+                <h1>A Visionary store <span class="underline">wherever you are.</span></h1>
+
+                <div class="stores-grid">
+                    <div class="store-box">
+                        <img src="../images/store-ny.jpg" alt="Store 1">
+                        <div class="store-info">
+                            <p class="fw-bold">Hudson Yards - NY<br>20 Hudson Yards<br>+1 646-954-3155</p>
+                            <p>10am-8pm</p>
+                        </div>
+                    </div>
+                    <div class="store-box">
+                        <img src="../images/store-sp.jpg" alt="Store 2">
+                        <div class="store-info">
+                            <p class="fw-bold">Shopping Cidade - SP<br>Av. Paulista, 1230<br>+55 11 3497-7000</p>
+                            <p>10am-10pm</p>
+                        </div>
+                    </div>
+                    <div class="store-box">
+                        <img src="../images/store-fr.jpg" alt="Store 3">
+                        <div class="store-info">
+                            <p class="fw-bold">La Vallée Village - FR<br>3 Cr de la Garonne<br>+33 1 60 42 35 00</p>
+                            <p>10am-8pm</p>
+                        </div>
+                    </div>
+                    <div class="store-box">
+                        <img src="../images/store-ar.jpg" alt="Store 4">
+                        <div class="store-info">
+                            <p class="fw-bold">Alto Palermo - AR<br>Av. Sta. Fe 3253<br>+54 800-222-2299</p>
+                            <p>10am-10pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <%- include('../partials/footer') %>
+    </main>
+
+    <!-- JS -->
+    <script src="/js/app.js"></script>
+</body>
+</html>
