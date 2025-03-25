@@ -1618,6 +1618,15 @@ body {
         margin-bottom: 1.5rem;
     }
 
+    .c-price {
+        font-size: var(--fs-200);
+    }
+
+    .c-quantity span {
+        width: 0.75rem;
+        height: 0.75rem;
+    }
+
     .c-total {
         margin-top: 1rem;
         align-items: center;
@@ -1628,7 +1637,7 @@ body {
     }
     
     .c-total .c-button button {
-        font-size: var(--fs-300);
+        font-size: var(--fs-200);
         padding: 0.25rem 1rem;
     }
 }
