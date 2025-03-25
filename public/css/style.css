@@ -736,12 +736,108 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 1400px) {
-    
+@media (max-height: 1000px) {
+    .banner-actions {
+        height: 85dvh;
+        gap: 35rem;
+    }
+
+    .banner-slogan h1 {
+        font-size: var(--fs-600);
+        margin: 10rem 5rem 0 5rem;
+        line-height: 2.5rem;
+    }
+
+    .banner-catalog img {
+        display: none;
+    }
+
+    .banner-catalog { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 65px;
+        margin-bottom: 10rem;
+        padding: 0.5rem 0;
+        gap: 1.5rem;
+    }
+
+    .banner-catalog p {
+        font-size: var(--fs-400);
+        text-align: center;
+        margin-left: 0;
+    }
 }
-@media (max-width: 1200px) {
-    
+
+@media (max-height: 850px) {
+    .banner-actions {
+        height: 85dvh;
+        gap: 25rem;
+    }
+
+    .banner-slogan h1 {
+        font-size: var(--fs-600);
+        margin: 10rem 5rem 0 5rem;
+        line-height: 2.5rem;
+    }
+
+    .banner-catalog img {
+        display: none;
+    }
+
+    .banner-catalog { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 60px;
+        margin-bottom: 10rem;
+        padding: 0.5rem 0;
+        gap: 1.5rem;
+    }
+
+    .banner-catalog p {
+        font-size: var(--fs-400);
+        text-align: center;
+        margin-left: 0;
+    }
 }
+
+@media (max-height: 700px) {
+    .banner-actions {
+        height: 85dvh;
+        gap: 20rem;
+    }
+
+    .banner-slogan h1 {
+        font-size: var(--fs-500);
+        margin: 10rem 5rem 0 5rem;
+        line-height: 2rem;
+    }
+
+    .banner-catalog img {
+        display: none;
+    }
+
+    .banner-catalog { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        height: 60px;
+        margin-bottom: 10rem;
+        padding: 0.5rem 0;
+        gap: 1.5rem;
+    }
+
+    .banner-catalog p {
+        font-size: var(--fs-300);
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 850px) {
     .banner-slogan h1 {
         margin: 10rem 5rem 0 5rem;
@@ -1606,7 +1702,6 @@ body {
     text-decoration: underline;
 }
 
-/* iPhone */
 @media (max-width: 480px) {
     .c-items {
         font-size: var(--fs-300);
