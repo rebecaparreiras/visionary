@@ -564,6 +564,8 @@ body {
 @media (max-width: 480px) {
     .sidecart {
         right: -120%;
+        height: 100vh;
+        width: 100vw;
     }
 
     .cart-header i {
@@ -576,12 +578,30 @@ body {
         font-size: var(--fs-100);
     }
 
+    .item-name {
+        font-size: var(--fs-200);
+    }
+
+    .item-price {
+        font-size: var(--fs-200);
+    }
+    
+    .item-quantity span {
+        width: 0.75rem;
+        height: 0.75rem;
+    }
+
     .cart-header h2 {
-        font-size: var(--fs-300);
+        font-size: var(--fs-200);
     }
 
     .cart-subtotal p {
-        font-size: var(--fs-300);
+        font-size: var(--fs-200);
+    }
+
+    .cart-actions button {
+        padding: 0.2rem;
+        font-size: var(--fs-200);
     }
 }
 
@@ -766,6 +786,37 @@ body {
     }
 }
 
+@media (max-width: 450px) {
+    .banner-actions {
+        height: 85dvh;
+        gap: 20rem;
+    }
+
+    .banner-slogan h1 {
+        font-size: var(--fs-500);
+        margin: 20rem 2rem 0 2rem;
+        line-height: 1.75rem;
+    }
+
+    .banner-catalog { 
+        width: 90%;
+        height: 60%;
+        margin-bottom: 20rem;
+        gap: 1.5rem;
+    }
+
+    .banner-catalog img {
+        width: 60px;
+    }
+
+    .banner-catalog p {
+        margin-left: -0.3rem;
+        font-size: var(--fs-300);
+        font-weight: var(--fw-bold);
+        cursor: pointer;
+    }
+}
+
 
 /* Product Grid */
 .product-grid h1 {
@@ -886,6 +937,10 @@ body {
     .product-grid h1 {
         font-size: var(--fs-400);
     }
+
+    .product-btn {
+        font-size: var(--fs-300);
+    }
 }
 
 
@@ -910,6 +965,16 @@ body {
     .slogan h1 {
         text-align: center;
         padding: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-slogan {
+        margin: 2rem 0;
+    }
+
+    .slogan h1 {
+        font-size: var(--fs-500);
     }
 }
 
@@ -969,6 +1034,10 @@ body {
 
 
 @media (max-width: 480px) {
+    .product-banner {
+        margin-top: 2rem;
+    }
+
     .product-banner-actions h2 {
         font-size: var(--fs-500);
         margin-top: 2rem;
@@ -1107,6 +1176,11 @@ body {
 }
 
 @media (max-width: 480px) {
+    .details-title {
+        font-size: var(--fs-400);
+        margin-top: 4rem;
+    }
+
     .details-item {
         padding: 3rem 2rem;
         height: 350px;
@@ -1171,6 +1245,13 @@ body {
     }
 }
 @media (max-width: 850px) {
+    .stores-slide h1 {
+        font-size: var(--fs-400);
+        font-weight: var(--fw-bold);
+        margin-top: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
     .stores-grid {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1427,6 +1508,22 @@ body {
     margin-bottom: 4rem;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .login-section {
+        margin: 2rem 0;
+    }
+
+    .login-section h2 {
+        font-size: var(--fs-400);
+    }
+
+    .form-row input[type="text"],
+    .form-row input[type="password"],
+    .form-row textarea {
+        width: 100%;
+    }
 }
 
 
