@@ -1,8 +1,10 @@
 # Visionary
 
-Visionary é um site de e-commerce de venda de óculos de grau e de sol, desenvolvido inteiramente em HTML, CSS e JavaScript puro, sem o uso de frameworks ou bibliotecas externas. O objetivo foi explorar e dominar o uso de JavaScript, criar uma experiência de compra fluida, elegante e otimizada para diferentes dispositivos, demonstrando domínio completo das tecnologias base do desevolvimento web. 
-<br>
-<br>
+Visionary é um site e-commerce de óculos de grau e de sol, desenvolvido inteiramente em HTML, CSS e JavaScript puro, sem o uso de frameworks ou bibliotecas externas. O objetivo foi explorar e dominar o uso de JavaScript, criar uma experiência de compra fluida, elegante e otimizada para diferentes dispositivos, demonstrando domínio completo das tecnologias base do desevolvimento web. 
+
+<p align="center">
+  <img src="readme-resources/visionary-gif-01.gif" alt="Demonstração do site">
+</p>
 
 ### Servidor Node.js + Express.js
 
@@ -26,8 +28,10 @@ Ao utilizar JavaScript puro, é comum que alguns recursos mais dinâmicos e sofi
 
 • O uso inteligente da manipulação do DOM para abrir/fechar menus e sidecart;<br>
 • Implementar de filtros e seleção de categorias como óculos de grau ou de sol, controlando a renderização de produtos diretamente pelo JavaScript.
-<br>
-<br>
+
+<p align="center">
+  <img src="readme-resources/visionary-gif-02.gif" alt="Demonstração do site">
+</p>
 
 ### Responsividade
 
@@ -39,9 +43,5 @@ Ao utilizar JavaScript puro, é comum que alguns recursos mais dinâmicos e sofi
 
 ## Tecnologias:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
-          
-          
-          
 
-![visionary](https://github.com/user-attachments/assets/44c25a07-ef02-491d-8eb5-f0a5b559372b)
           
