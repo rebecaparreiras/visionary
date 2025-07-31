@@ -1,6 +1,6 @@
 # Visionary
 
-Visionary é um site e-commerce de óculos de grau e de sol, desenvolvido inteiramente em HTML, CSS e JavaScript puro, sem o uso de frameworks ou bibliotecas externas. O objetivo foi explorar e dominar o uso de JavaScript, criar uma experiência de compra fluida, elegante e otimizada para diferentes dispositivos, demonstrando domínio completo das tecnologias base do desevolvimento web. 
+Visionary é um site e-commerce de óculos de grau e de sol, desenvolvido inteiramente em HTML, CSS e JavaScript puro, sem o uso de frameworks ou bibliotecas externas. O objetivo foi explorar e dominar o uso de JavaScript, criar uma experiência de compra fluida e otimizada para diferentes dispositivos, demonstrando domínio completo das tecnologias base do desenvolvimento web. 
 
 <p align="center">
   <img src="readme-resources/visionary-gif-01.gif" alt="Demonstração do site">
