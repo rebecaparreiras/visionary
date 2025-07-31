@@ -6,9 +6,9 @@ Visionary é um site e-commerce de óculos de grau e de sol, desenvolvido inteir
   <img src="readme-resources/visionary-gif-01.gif" alt="Demonstração do site">
 </p>
 
-### Servidor Node.js + Express.js
+### Servidor NodeJS + ExpressJS
 
-Embora Visionary seja um projeto focado em front-end, a adoção de um back-end com Node.js e Express.js seria estratégica pensando na realidade de um e-commerce completo, dinâmico e escalável. Apesar de não estar consumindo APIs, o Node.js me permitiu criar um servidor leve e eficiente, além de oferecer uma melhor organização do projeto e o uso do Express.js, que foi fundamental para gerenciar requisições do usuário, como adicionar produtos ao carrinho. 
+Embora Visionary seja um projeto focado em front-end, a adoção do ambiente de desenvolvimento do NodeJS com ExpressJS seria estratégica pensando na realidade de um e-commerce completo, dinâmico e escalável. Apesar de não estar consumindo APIs, o NodeJS me permitiu criar um servidor leve e eficiente, além de oferecer uma melhor organização do projeto e o uso do ExpressJS, que foi fundamental para gerenciar requisições do usuário, como adicionar produtos ao carrinho. 
 <br>
 <br>
 
@@ -27,7 +27,7 @@ Muitos sites de e-commerce pecam por navegação confusa e falta de foco na expe
 Ao utilizar JavaScript puro, é comum que alguns recursos mais dinâmicos e sofisticados sejam deixados de lado. Por isso, para o site Visionary eu busquei:
 
 • O uso inteligente da manipulação do DOM para abrir/fechar menus e sidecart;<br>
-• Implementar de filtros e seleção de categorias como óculos de grau ou de sol, controlando a renderização de produtos diretamente pelo JavaScript.
+• Implementar filtros e seleção de categorias como 'óculos de grau' ou 'óculos de sol', controlando a renderização de produtos diretamente pelo JavaScript.
 
 <p align="center">
   <img src="readme-resources/visionary-gif-02.gif" alt="Demonstração do site">
